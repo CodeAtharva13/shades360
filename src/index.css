@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'muktavaani';
+  src: local('muktavaani'), url(./assets/fonts/Muktavaani/static/MuktaVaani-Regular.ttf) format('truetype');
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 2rem;
+  font-family: muktavaani;
+  z-index: 2;
+}
+
+.nav-logo{
+  width: 94px;
+  height: 94px;
+}
+
+.nav-links {
+  font-family: 'muktavaani', sans-serif; /* Use Muktavaani font */
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  align-items: flex-start; /* Align to the top */
+  margin-top: 1rem; /* Adjust margin as needed */
+}
+
+
+.nav-link-mobile{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "inter";
+}
+
+.nav-link-mobile span{
+  margin-right: 18px;
+}
